@@ -1,8 +1,8 @@
-Frontpanel=0;
+Frontpanel=1;
 Backpanel=1;
-Doos=0;
-VoetjeVoor=0;
-VoetjeAchter=0;
+Doos=1;
+VoetjeVoor=1;
+VoetjeAchter=1;
 $fn=150;
 
 //translate([0,0,10])LCDFrame();
