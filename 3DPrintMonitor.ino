@@ -12,10 +12,10 @@
 // List of printers to monitor
 // Display name (max. 5 chars), Printer address, API key (or maker password in case of Prusa Mini/MK4)
 const char *Printers[]={
- "MK3.9", "http://192.168.0.10", "5B9379B9C7A041FC88334BB981B1C728", // My MK4 Upgrade printer
- "MK4","http://192.168.0.49:80","hdp4DXhT4ZDfHpN", // My first MK4 printer
+ "MK3.9", "http://192.168.0.10", "5B9379B9CF774B7A028", // My MK4 Upgrade printer
+ "MK4","http://192.168.0.49:80","hdp4DXhT4ZDHFEDpN", // My first MK4 printer
  "MK4-2","http://192.168.0.50:80","wachtwoordMK42", // My second MK4 printer
- "Mini","http://192.168.0.4:80","XFMzbJ6DUnozg2y" // My Prusa Mini printer
+ "Mini","http://192.168.0.4:80","XFMz4ZDHFEDnozg2y" // My Prusa Mini printer
 };
 #define NUMPRINTERS (sizeof(Printers) / sizeof(Printers[0])/3)
 
